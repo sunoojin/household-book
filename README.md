@@ -105,6 +105,17 @@ npm install
 npm start
 ```
 
+### 3. `.env` 파일
+
+`.env`파일을 따로 생성하여 backend 폴더에 넣기
+```
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=사용자 이름
+DB_PASSWORD=비밀번호
+DB_NAME=DB 이름
+```
+
 ## 참고 사항
 
 - 실제 데이터베이스 연동 시 API 서버와 MySQL 서버를 함께 실행해야 함
